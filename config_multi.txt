@@ -1,0 +1,12 @@
+mp3=https://www.dropbox.com/s/5zf60ctri98blbn/eDJazz.mp3
+title=Direction jazz
+autoplay=0
+width=180
+height=55
+bgcolor1=819FF7
+bgcolor2=CEECF5
+showvolume=0
+showslider=0
+volumewidth=100
+buttonwidth=44
+showplaylistnumbers=0

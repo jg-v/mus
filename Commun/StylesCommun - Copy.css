@@ -1,0 +1,380 @@
+.page-id-5321 #header-outer, .page-id-5321 #header-space, .page-id-5321 #footer-outer {
+	display: none;
+}
+
+img[alt="image-name"] (where "image-name" is replaced by your value. ) {
+	opacity:0;
+} 
+	
+.MonBodyMenu         	
+{
+	margin-top: 10px;
+	margin-left: 135px;
+	background-repeat: repeat;
+	padding-left: 2px;
+	background-size: cover cover;
+}
+
+.ContactText {
+    position: relative;
+    left:     0px;
+    right: 0px;
+    width: 200px;
+    text-align: left;
+    padding: 0px;
+    margin: 0;
+    height: 25px;
+    min-height: 23px;
+  }
+  
+.ContactBouton {
+    position: relative;
+    left:     10px;
+    right: 0px;
+    width: 90px;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+    min-width: 90px;
+    height: 25px;
+  }    
+
+.PoliceGenerale 
+{
+	font-size: 1rem;
+	line-height: 1.3em;
+}
+
+.BoutonPaypalDes 
+{
+	opacity: 0.8;
+	filter: grayscale(70%);
+}
+
+.BoutonPaypalAct 
+{
+	opacity: 1;
+	filter: grayscale(0%);
+}
+
+html         	
+{
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 2em;
+}       
+
+ul {
+    margin: 0px 0px 0px 6px;
+    color: #000;
+    list-style-type: disc;	
+    padding-left: 0px;
+    margin-left: inherit; 
+    position: relative;
+    text-decoration: none;
+}
+
+li {
+    float: none;
+    padding-bottom: 4px;
+    margin-bottom: 2px;
+}       
+
+textarea
+{
+    max-width:95%;
+    width: 340px;
+}       
+
+.CadreTemoignage1
+{
+	margin-top: 2px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	background-color:white;
+	padding: 1px;
+	background-color:white;
+}  
+
+strong {
+    font-size: 0.8rem;
+} 
+
+/*------------ section menu de gauche ------------*/
+
+.sidenav {
+    height: 100%;
+    width: 135px; /*par défraut*/
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 90px;
+    border-width: 0px;
+    line-height: 1.8em;
+    /*border-right: 1px solid red;*/
+}
+
+.sidenav a {
+    padding: 4px 4px 4px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #1a53ff;
+    display: block;
+    /*border-right: 1px solid red;*/
+}
+
+.sidenav a:hover {
+    
+    background-color: #ffff4d;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.OptionMenuVisible {
+	visibility: hidden; 
+} 
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*------------ Gestion taille/emplacement sections ------------*/
+
+
+/*le width est défini dans l'enfant par défaut et via une variable avec les @media*/
+.ContenuGauche
+{
+	float:left;
+    padding-right: 0px;
+    padding-bottom: 0px;	            
+    padding-top: 15px;
+    padding-left: 5px;	
+    border: 0px;            
+    box-sizing: border-box;
+} 
+                        
+.ContenuDroite
+{
+	float:left;                
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 15px; 
+    max-width: 465px;        
+    border: 0px;
+    box-sizing: border-box;
+}         
+        
+.LargeurTabEntete
+{
+    width:800px;
+}
+
+.LargeurTabEnteteJGV
+{
+    width:680px;
+}    
+
+.LargeurTabEnteteCours
+{
+    width:680px;
+}     
+
+.LargeurTabAccueil
+{
+    width:500px;
+}
+
+.FormatAlbum
+{
+	width: 90%;
+	max-height: 216px;
+}  
+
+.FormatPhotoCoursPres
+{
+	width: 100%;
+	min-width: 25px;
+} 
+
+.FormatPhotoCoursDemo
+{
+	width: 90%;
+	padding:15px 0px 0px 0px;
+} 
+
+@font-face {
+    font-family: PoliceTitre;
+    src: url(mtcorsva.woff) format('woff'),
+		 url('mtcorsva.ttf') format('truetype');         
+}
+
+.DefTitre
+{
+	font-family: PoliceTitre;
+	letter-spacing: 1.5pt;
+	color: #660000;
+	font-size: 19pt;
+	line-height: 1.1em;	
+}	
+
+.DefSousTitre {
+    font-family: Arial Narrow;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    color: maroon
+}    
+
+.ContenuMargeGauche {
+	margin-left: 20px;
+}      
+       
+@media screen and (max-width:780px) { /* petite tablette paysage et grande tablette portrait */
+  
+  :root {
+	  --VarLargeur: 100%; /*dans l'enfant, si cette var est définie la prend sinon prend la valeur par défaut de l'enfant*/
+  }   	                                   
+  .ContenuDroite 
+  {
+    padding-top: 0px;       	
+    max-width: 615px;
+    max-height: 100%;
+  }   
+  .LargeurTabAccueil, .LargeurTabEntete, .LargeurTabEnteteJGV, .LargeurTabEnteteCours {
+    width:630px;
+  }   
+  .DefTitre {
+    font-size: 19pt;
+    letter-spacing: 1.2pt;
+  }   
+  .DefSousTitre {
+    font-size: 18px;
+  }               
+  /*section menu de gauche est cachée*/ 
+  .MonBodyMenu         	
+  {
+	margin-left: 10px; /*par défaut*/
+  }     
+  .sidenav {
+    width: 0px;
+    transition: 0.5s;
+  }     
+  .OptionMenuVisible {
+    visibility: visible; 
+  } 
+  .ContenuMargeGauche { 
+	margin-left: 7px; /* ajouter marge gauche pour démarquer contenu du menu pr EMC */
+  }         
+}                       
+  
+@media screen and (max-width:630px) { /* téléphone petit/mini paysage et petite tablette portrait- */
+  
+  .ContenuDroite 
+  {
+    padding-top: 0px;       	
+    max-width: 508px;
+    max-height: 100%;
+  } 
+  .LargeurTabAccueil, .LargeurTabEntete, .LargeurTabEnteteJGV, .LargeurTabEnteteCours {
+    width:520px;
+  }         
+  .DefTitre {
+    font-size: 18pt;
+    letter-spacing: 1.1pt;
+  }              
+  .DefSousTitre {
+    font-size: 16px;
+  }        
+}   
+
+@media screen and (max-width:460px) { /* téléphone petit - portrait*/                                     
+         
+  .ContenuDroite 
+  {
+    padding-top: 0px;       	
+    max-width: 364px;
+    max-height: 100%;
+  }   
+  .LargeurTabAccueil, .LargeurTabEntete, .LargeurTabEnteteJGV, .LargeurTabEnteteCours {
+    width:376px;
+  }     
+  .DefTitre {
+    font-size: 18pt;
+    letter-spacing: 1pt;
+  }             
+  .DefSousTitre {
+    font-size: 12pt;
+  }         
+} 
+       
+@media screen and (max-width:385px) { /* téléphone petit - portrait*/
+                                                                                          
+  .ContenuDroite 
+  {
+    padding-top: 0px;       	
+    max-width: 328px;
+    max-height: 100%;
+  }   
+  .LargeurTabAccueil, .LargeurTabEntete, .LargeurTabEnteteJGV, .LargeurTabEnteteCours {
+    width:340px;
+  }     
+  .DefTitre {
+    font-size: 17pt;
+    letter-spacing: 0.9pt
+  }             
+  .DefSousTitre {
+    font-size: 12pt;
+    letter-spacing: 1pt
+  }   
+  textarea {
+	width: 280px;
+  }         
+} 
+  
+@media screen and (max-width:335px) { /* téléphone mini - portrait*/
+  :root {
+	  --VarLargeurCViolon: 100%; /*dans l'enfant, si cette var est définie la prend sinon prend la valeur par défaut de l'enfant*/
+  }   
+                                             
+  .ContenuDroite {
+    padding-top: 0px;       	
+    width: 100%;
+    max-width: 280px;
+    max-height: 100%;
+  }   
+  .LargeurTabAccueil, .LargeurTabEntete, .LargeurTabEnteteJGV, .LargeurTabEnteteCours {
+    width:290px;
+  }     
+  .DefTitre{
+    font-size: 16pt;
+    letter-spacing: 0.8pt
+  }             
+  .DefSousTitre {
+  	font-family: Arial Narrow;
+    font-size: 11pt;
+    letter-spacing: 1pt
+  }    
+  textarea {
+	width: 270px;
+  }   
+  .FormatPhotoCoursDemo {
+	width: 0px;
+	min-width: 0px;
+	padding: 0px 0px 0px 0px;
+  }    
+}

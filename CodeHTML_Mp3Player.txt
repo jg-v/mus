@@ -1,0 +1,9 @@
+<object type="application/x-shockwave-flash" data="http://flash-mp3-player.net/medias/player_mp3_multi.swf" width="350" height="80">
+<!-- width and height above must match those on the params line below -->
+<param name="movie" value="http://flash-mp3-player.net/medias/player_mp3_multi.swf" />
+<param name="FlashVars" value="mp3=https://www.dropbox.com/s/5zf60ctri98blbn/eDJazz.mp3?dl=1|https://www.dropbox.com/s/g6cqjla3dp1hiqi/eSI.mp3?dl=1&amp;title=Direction Jazz|Saisir invisible&amp;width=350&amp;height=80&amp;bgcolor1=4da6a9&amp;bgcolor2=2d8689&amp;showvolume=1&amp;volumewidth=40&amp;sliderwidth=10" />
+</object>
+<br /><br />
+
+https://www.dropbox.com/s/5zf60ctri98blbn/eDJazz.mp3
+https://www.dropbox.com/s/g6cqjla3dp1hiqi/eSI.mp3
